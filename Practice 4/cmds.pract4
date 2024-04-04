@@ -1,0 +1,66 @@
+1) vi ptest
+   i
+1a) sleep 10
+1b) banner hello
+    esc
+    :wq
+   chmod u+x ptest
+2a) ./ptest
+2b) ./ptest&
+3) nohup ./ptest&
+   #Logs off/on
+3a) cat > nohup.out
+    hello
+    hello
+    hello
+    #This is the output for the file ptest which was executed in the background, which was saved in the nohup's standard out "nohup.out". Nohup's output can be redirected using > 
+3b) nohup ./ptest&
+    #Logs off/on
+    cat nohup.out
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    #The second nohup command appended the output to nohup.out, rather than replacing
+4) ./ptest&
+   [1] 15967
+   kill 15967
+   #uses default *15
+5) at now+2min
+   at> ./ptest
+   at> ctrl+D
+   #2 minutes later
+   mail
+   3
+   #shows email number 3
+   & s at.mail
+   & q
+6) vi ptest
+   K
+   #up
+   $
+   #end of line
+   L
+   #right
+   i 
+    > ptest.out
+   esc
+   :wq
+   at now+2min
+   at> ./ptest
+   at> ctrl+D
+   #2 minutes later
+   mail
+   #There is no new mail; cron did not send anything this time
+   q
+7) cat > cmds.lab6
+   #Starts to type this list, but messes up
+   ctrl+D
+   vi cmds.pract4
+   #Finishes typing this list
+   esc
+   :wq
+   #Makes directory called Practice4 using mkdir, then moves the files from pract4 there using mv
+
