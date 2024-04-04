@@ -1,0 +1,19 @@
+1) cd /user/cs40
+   cp watrfowl watrfowl.dup ~
+   cd ~
+2a) head -n12 watrfowl > watrfowl.head
+2b) tail -n4 watrfowl > watrfowl.tail
+2c) wc watrfowl > wc.out
+2d) grep -in thy watrfowl > watrfowl.thy
+3a) sort watrfowl > watrfowl.sort
+3b) sort watrfowl.dup > watrfowl.dup.sort
+3c) diff watrfowl.sort watrfowl.dup.sort > watrfowl.diff.out
+4a) uniq watrfowl.dup > watrfowl.uniq
+4b) diff watrfowl watrfowl.uniq > watrfowl.diff.out2
+5a) cat > sep
+    =======================================================
+    ctrl+D
+5b) cat watrfowl.head sep watrfowl.tail sep watrfowl.thy sep watrfowl.diff.out sep watrfowl.diff.out2 sep > lab3.out
+6) cat > cmds.lab3
+   #Types this list
+   ctrl+D
