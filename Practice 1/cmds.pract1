@@ -1,0 +1,11 @@
+1) man cat > cat.desc
+2a) cat > hello
+    Hello, how are you?
+    ctrl+D
+2b) date > today
+2c) cal 06 2018 > cal.jun.18
+2d) cal 2018 > cal.2018
+2e) ls -l > dir.pract1
+3) cat > cmds.pract1
+   #Types this list
+   ctrl+D
