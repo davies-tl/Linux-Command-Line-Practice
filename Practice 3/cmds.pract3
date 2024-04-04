@@ -1,0 +1,15 @@
+1) cd /usr/cs40
+   cp phonbook.dat ~/test.dat
+   cd ~
+2) cut -d: -f1 test.dat > names
+3) cut -d' ' -f2 names > lname
+4) cut -d' ' -f1 names > fname
+5) paste -d' ' lname fname > lastfirst
+6) cut -d: -f2 test.dat > numbers
+7) paste -d: lastfirst numbers > temp.dat
+8) sed 's/ /, /' temp.dat > temp2.dat
+9) sort -t: -k1,1r -k2,2 temp2.dat > lfphonbook.dat
+10) cat test.dat sep names sep lname sep fname sep lastfirst sep numbers sep temp.dat sep temp2.dat sep lfphonbook.dat sep > pract3.out
+    cat > cmds.pract3
+    #Types this list
+    ctrl+D
