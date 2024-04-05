@@ -1,0 +1,34 @@
+3) emacs ~/pract7/hello.cpp
+   #use arrrows to get to 'Y' in Your
+   <esc> d
+   <esc> d
+   Tyler Davies
+   #types how I am feeling today and why
+   <ctrl> x  <ctrl> s
+   <ctrl> x  <ctrl> c
+4) cd lab10/
+   emacs makefile
+   #types the following
+   hello: hello.cpp
+   [Tab] g++ -Wall -g hello.cpp -o hello
+   <ctrl> x  <ctrl> s
+5) <ctrl> x  <ctrl> f hello.cpp
+   <esc> x compile <enter>
+   make -k > pract7.out
+   #I forgot to redirect the output to pract7.out the first time, so I had to redue this step; as such, the output in pract7.out may not be the same as if I redirected the output the first time hello.cpp was compiled
+   <ctrl> x 1
+   <ctrl> x  <ctrl> f cmds.pract7
+   #types command list
+   <ctrl> x  <ctrl> s
+   <ctrl> x  <ctrl> c
+6) emacs hello.cpp
+   <ctrl> x 2
+   <ctrl> x o
+   <esc> x shell
+   ./hello >> pract7.out
+   exit
+   <ctrl> x  <ctrl> c
+   emacs cmds.pract7
+   #updates remaining commands
+   <ctrl> x  <ctrl> s
+   <ctrl> x  <ctrl> c
