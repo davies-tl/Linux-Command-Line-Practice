@@ -1,0 +1,128 @@
+1) vi pract5letr.txt
+   shift+h (H)
+   w
+   e
+   c$
+  (Types) 1, 2015
+   esc
+   o
+   esc
+   3j
+   c$
+   (Types) Tacoma Chamber of Commerce
+   esc
+   :w enter
+   j
+   0
+   cw
+   (Types) 510
+   esc
+   2w
+   cw
+   (Types) Vista
+   esc
+   :w enter
+   k
+   0
+   yw
+   j
+   o
+   esc
+   p
+   i
+   (Types) , WA 98402
+   esc
+   :w enter
+   o
+   esc
+   3k
+   shift+o (O)
+   esc
+   j
+   o
+   esc
+   j
+   o
+   esc
+   4j
+   o
+   j
+   d)
+   i
+   (Types) Recently, you contacted our staff about the Chamber's decision to sponsor a job fair
+   enter
+   (Types) again this year 
+   esc
+   :w enter
+   2j
+   0
+   4w
+   c$
+   (Types) information about the date and location for this year's fair. If a map
+   enter
+   (Types) of the exhibit area is available, we would appreciate receiving a copy of it. 
+   esc
+   0
+   j
+   i
+   backspace
+   backspace
+   2shift+w (2W)
+   e
+   a
+   enter
+   right-arrow
+   backspace
+   esc
+   2w
+   cw
+   (Types) a
+   esc
+   8w
+   4cw
+   (Types) contact regarding the
+   esc
+   0
+   j
+   i
+   backspace
+   esc
+   2shift+w (2W)
+   i
+   enter
+   esc
+   shift+w (W)
+   h
+   x
+   7shift+w (7W)
+   c$
+   (Types) the exhibit booths are and how we
+   enter
+   (Types) can reserve one.
+   esc
+   o
+   esc
+   2dd
+   :w enter
+   o
+   (Types) Thank you for your help in this matter. We look forward to participating in the job fair
+   enter
+   (Types) and hope to hear from you soon.
+   enter
+   esc
+   j
+   o
+   enter
+   esc
+   j
+   c$
+   (Types) Tyler Davies
+   esc
+   :wq
+2) vi cmds.pract5
+   (Types this list)
+   esc
+   :wq
+   mkdir pract5
+   mv *pract5* pract5
+   
