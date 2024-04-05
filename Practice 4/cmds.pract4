@@ -55,12 +55,12 @@
    mail
    #There is no new mail; cron did not send anything this time
    q
-7) cat > cmds.lab6
+7) cat > cmds.prac4
    #Starts to type this list, but messes up
    ctrl+D
    vi cmds.pract4
    #Finishes typing this list
    esc
    :wq
-   #Makes directory called Practice4 using mkdir, then moves the files from pract4 there using mv
+   #Makes directory called pract4 using mkdir, then moves the files from pract4 there using mv
 
