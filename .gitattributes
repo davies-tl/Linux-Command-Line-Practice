@@ -1,1 +1,2 @@
-pract01/* linguist-documentation
+#Removing Roff and Isabelle from repo Languages
+*.* linguist-language=txt
