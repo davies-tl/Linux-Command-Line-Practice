@@ -1,2 +1,3 @@
 #Removing Roff and Isabelle from repo Languages
+#All files in this repo are text files with commands and output in them.
 *.* linguist-language=Text
