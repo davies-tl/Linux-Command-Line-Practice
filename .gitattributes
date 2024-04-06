@@ -1,2 +1,2 @@
 #Removing Roff and Isabelle from repo Languages
-*.* linguist-language=txt
+*.* linguist-language=Text
